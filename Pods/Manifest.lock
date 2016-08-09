@@ -1,0 +1,15 @@
+PODS:
+  - SVProgressHUD (2.0.3)
+  - SwiftyMarkdown (0.2.3)
+
+DEPENDENCIES:
+  - SVProgressHUD
+  - SwiftyMarkdown
+
+SPEC CHECKSUMS:
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftyMarkdown: 62920e177bbd441f2e4427e164e1674b1be46b39
+
+PODFILE CHECKSUM: b7df8cf9bce35841444c26537df8815e94446715
+
+COCOAPODS: 1.0.1

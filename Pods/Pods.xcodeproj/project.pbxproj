@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DC8B7C8F2D608E8E5EA51A674447B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		0B32899B440583EB4DA3872C658FA234 /* SwiftyMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A2CCFD5F9AEE172212546B8477FF3F /* SwiftyMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1077CB28F0DAF6B74DD43D983746EC7B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873E7AC8194BD93C1D8F9020B6AE955 /* SVProgressHUD.m */; };
+		2CB3532FC5B701D8EA3ECBCDA210ACB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
+		2D2744DD0B3F9E0217969072B99B36FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		30CB2C1DE8FA06D38A42E276EC821B76 /* SwiftyMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF3E25EFA530BF7B3C552285CDCE7E /* SwiftyMarkdown.swift */; };
+		325AEC41D073CC4AF311DBF875048CA3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1048840A915F42F3867FE3C098CD6D0 /* SVIndefiniteAnimatedView.m */; };
+		4456BEE68B909B0155A06BAB1FEB1B8E /* Pods-GutHub-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEB1C3BD1A85C2871FC6816DD4113FC /* Pods-GutHub-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EBB62D9611417E02732AB985749B1E2 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 386A9979F7F11B86B8A2BB193FA7C0A1 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5778737643304ED4220895909D54E39C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		582F4E609A41C45D8B11FC19EAE208A6 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3649472EED629A4B592CC2385641673 /* SVRadialGradientLayer.m */; };
+		5BFC7ECFB24F2FF612BDB1345622EF97 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 408701CEA5893613BC5738A87944FB38 /* SVProgressHUD.bundle */; };
+		8FAD0CBDC626A51F50E0689AB3010EA0 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56DE7C8335A86958BC69F725D8B254F /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C9ABC7143E1F7D8D254D2725BC6F55 /* SwiftyMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FE2DEA2F7C606999B8DE83B973F045 /* SwiftyMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5CD7CA2B6D4946D03BAE3C2A1B6FE09 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6015A712EC557AADD49502A8A363BA5 /* SVProgressAnimatedView.m */; };
+		B50FAF6DEBD9140DDAAF912AFEEAEA6A /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 184D992A169BF9432DD75212FF6640A2 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4648A01F18A8F7F526F1942D93AAEE7 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D464A0EFF776DF053A564A061BD46FD /* SVProgressHUD-dummy.m */; };
+		C74FF77C44388E8289E3D5686D5A05EA /* Pods-GutHub-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E79FD341149B9C54BC7BB5DB9B8E2 /* Pods-GutHub-dummy.m */; };
+		DCB85B66A818B0B6B49A55F594F23299 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB5CA5D7CCC77A9F478212E50C56480 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D5E02CC838C277BDD5744CB818E0F2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F77DFDC99D0D54FC4A9080A7E6CE2D12 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA586F1F875D474A5473EF14575168E0 /* SwiftyMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9AF9B615BBA2F2B78262B858868783 /* SwiftyMarkdown-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C333D5919901DC977DE057A008770BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C992A60C3D5A7936FF0AB3258A343494;
+			remoteInfo = SVProgressHUD;
+		};
+		EC8CC1FA0A1D981AF5ACBB27846159BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3A2EF1E09546FCC6D0C2688F48610A;
+			remoteInfo = SwiftyMarkdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002096A12AA6489E1A86628925319371 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C70C80CD43CBAEFFB4C93E1FD14B87 /* Pods_GutHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GutHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C31CC10A875258899DFFA1F83273CA /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0B5E639DBB0D71A866763C2F39AE2F4B /* SwiftyMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		184D992A169BF9432DD75212FF6640A2 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		194DA76ECB2F5C856FBB0B33C2828367 /* Pods-GutHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GutHub.release.xcconfig"; sourceTree = "<group>"; };
+		22BF3E25EFA530BF7B3C552285CDCE7E /* SwiftyMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyMarkdown.swift; path = SwiftyMarkdown/SwiftyMarkdown.swift; sourceTree = "<group>"; };
+		2B9AF9B615BBA2F2B78262B858868783 /* SwiftyMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMarkdown-dummy.m"; sourceTree = "<group>"; };
+		2E76C56527189D6A9C9954E4C70A58CE /* Pods-GutHub-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GutHub-frameworks.sh"; sourceTree = "<group>"; };
+		386A9979F7F11B86B8A2BB193FA7C0A1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		408701CEA5893613BC5738A87944FB38 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		44DB057C425D15B0F912BE534E90FC8C /* Pods-GutHub.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GutHub.modulemap"; sourceTree = "<group>"; };
+		49D315F99A7528A1C66C1448686921C9 /* SwiftyMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEB1C3BD1A85C2871FC6816DD4113FC /* Pods-GutHub-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GutHub-umbrella.h"; sourceTree = "<group>"; };
+		51A2CCFD5F9AEE172212546B8477FF3F /* SwiftyMarkdown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyMarkdown.h; path = SwiftyMarkdown/SwiftyMarkdown.h; sourceTree = "<group>"; };
+		5D464A0EFF776DF053A564A061BD46FD /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		5DF80C98862D87297CEFDDFC0FE51F1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7534EF32643CB27054D47F59B55EF996 /* Pods-GutHub-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GutHub-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7873E7AC8194BD93C1D8F9020B6AE955 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91FE2DEA2F7C606999B8DE83B973F045 /* SwiftyMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D4DBA3E247A957DE0E81D601B1FA67 /* Pods-GutHub-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GutHub-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E4E79FD341149B9C54BC7BB5DB9B8E2 /* Pods-GutHub-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GutHub-dummy.m"; sourceTree = "<group>"; };
+		A1048840A915F42F3867FE3C098CD6D0 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A6C462F665AE82CE186C80B29F9B7751 /* SwiftyMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyMarkdown.modulemap; sourceTree = "<group>"; };
+		AC8065635A4F62279807E2A0ACA52038 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18146600DB16AA525DE880EF5E8556B /* SwiftyMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMarkdown.xcconfig; sourceTree = "<group>"; };
+		B66AB9566C164ED4906C373C4B4C7D89 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		BC2D52FEEFCCBDECD3D685B5C3DC136D /* Pods-GutHub-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GutHub-resources.sh"; sourceTree = "<group>"; };
+		C51713C46B2C72501DCBC333C88E3717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CF5B7F695E809BDB64DEDCAABDF4B8 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		D3649472EED629A4B592CC2385641673 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		D41514236362857DC0881F2D3EC378B9 /* Pods-GutHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GutHub.debug.xcconfig"; sourceTree = "<group>"; };
+		E6015A712EC557AADD49502A8A363BA5 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F56DE7C8335A86958BC69F725D8B254F /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		F77DFDC99D0D54FC4A9080A7E6CE2D12 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		FDB5CA5D7CCC77A9F478212E50C56480 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EDDF627D56496A46EBC88AEC3BF1CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2744DD0B3F9E0217969072B99B36FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C98E531930FA4F2350C460A033867C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC8B7C8F2D608E8E5EA51A674447B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8499F664F456074B6E73BB2E49C071B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5778737643304ED4220895909D54E39C /* Foundation.framework in Frameworks */,
+				2CB3532FC5B701D8EA3ECBCDA210ACB3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29977523FC39C556DA9C0C3CE0A355A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08C70C80CD43CBAEFFB4C93E1FD14B87 /* Pods_GutHub.framework */,
+				002096A12AA6489E1A86628925319371 /* SVProgressHUD.framework */,
+				49D315F99A7528A1C66C1448686921C9 /* SwiftyMarkdown.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B5690D1AC6E5E4EB0678CEB38E55D0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				386A9979F7F11B86B8A2BB193FA7C0A1 /* SVIndefiniteAnimatedView.h */,
+				A1048840A915F42F3867FE3C098CD6D0 /* SVIndefiniteAnimatedView.m */,
+				F77DFDC99D0D54FC4A9080A7E6CE2D12 /* SVProgressAnimatedView.h */,
+				E6015A712EC557AADD49502A8A363BA5 /* SVProgressAnimatedView.m */,
+				184D992A169BF9432DD75212FF6640A2 /* SVProgressHUD.h */,
+				7873E7AC8194BD93C1D8F9020B6AE955 /* SVProgressHUD.m */,
+				FDB5CA5D7CCC77A9F478212E50C56480 /* SVRadialGradientLayer.h */,
+				D3649472EED629A4B592CC2385641673 /* SVRadialGradientLayer.m */,
+				D5B681F9A0F9BA3DE71BD08012FAE433 /* Resources */,
+				C50A344A0BAE9895BD1A7449AFB4986D /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F803C7E2D77E11F2120CB28FE0B795 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4886138525EFF7D007A034CBAA6C097B /* SwiftyMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				51A2CCFD5F9AEE172212546B8477FF3F /* SwiftyMarkdown.h */,
+				22BF3E25EFA530BF7B3C552285CDCE7E /* SwiftyMarkdown.swift */,
+				56ECE8C0D3FF08CBBE1714AE667E760F /* Support Files */,
+			);
+			path = SwiftyMarkdown;
+			sourceTree = "<group>";
+		};
+		56ECE8C0D3FF08CBBE1714AE667E760F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8065635A4F62279807E2A0ACA52038 /* Info.plist */,
+				A6C462F665AE82CE186C80B29F9B7751 /* SwiftyMarkdown.modulemap */,
+				B18146600DB16AA525DE880EF5E8556B /* SwiftyMarkdown.xcconfig */,
+				2B9AF9B615BBA2F2B78262B858868783 /* SwiftyMarkdown-dummy.m */,
+				0B5E639DBB0D71A866763C2F39AE2F4B /* SwiftyMarkdown-prefix.pch */,
+				91FE2DEA2F7C606999B8DE83B973F045 /* SwiftyMarkdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyMarkdown";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F8C1C2BD0668F0FAC457D6B62AB3D1FF /* Pods */,
+				29977523FC39C556DA9C0C3CE0A355A0 /* Products */,
+				BAC4CD8BEA9754ADC7021F01B532BB14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */,
+				EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BAC4CD8BEA9754ADC7021F01B532BB14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74B3A2A3AE883EC9D8D3B797E6071B9 /* Pods-GutHub */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C50A344A0BAE9895BD1A7449AFB4986D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF80C98862D87297CEFDDFC0FE51F1C /* Info.plist */,
+				B66AB9566C164ED4906C373C4B4C7D89 /* SVProgressHUD.modulemap */,
+				09C31CC10A875258899DFFA1F83273CA /* SVProgressHUD.xcconfig */,
+				5D464A0EFF776DF053A564A061BD46FD /* SVProgressHUD-dummy.m */,
+				C5CF5B7F695E809BDB64DEDCAABDF4B8 /* SVProgressHUD-prefix.pch */,
+				F56DE7C8335A86958BC69F725D8B254F /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		D5B681F9A0F9BA3DE71BD08012FAE433 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				408701CEA5893613BC5738A87944FB38 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D74B3A2A3AE883EC9D8D3B797E6071B9 /* Pods-GutHub */ = {
+			isa = PBXGroup;
+			children = (
+				C51713C46B2C72501DCBC333C88E3717 /* Info.plist */,
+				44DB057C425D15B0F912BE534E90FC8C /* Pods-GutHub.modulemap */,
+				7534EF32643CB27054D47F59B55EF996 /* Pods-GutHub-acknowledgements.markdown */,
+				97D4DBA3E247A957DE0E81D601B1FA67 /* Pods-GutHub-acknowledgements.plist */,
+				9E4E79FD341149B9C54BC7BB5DB9B8E2 /* Pods-GutHub-dummy.m */,
+				2E76C56527189D6A9C9954E4C70A58CE /* Pods-GutHub-frameworks.sh */,
+				BC2D52FEEFCCBDECD3D685B5C3DC136D /* Pods-GutHub-resources.sh */,
+				4FEB1C3BD1A85C2871FC6816DD4113FC /* Pods-GutHub-umbrella.h */,
+				D41514236362857DC0881F2D3EC378B9 /* Pods-GutHub.debug.xcconfig */,
+				194DA76ECB2F5C856FBB0B33C2828367 /* Pods-GutHub.release.xcconfig */,
+			);
+			name = "Pods-GutHub";
+			path = "Target Support Files/Pods-GutHub";
+			sourceTree = "<group>";
+		};
+		F8C1C2BD0668F0FAC457D6B62AB3D1FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B5690D1AC6E5E4EB0678CEB38E55D0 /* SVProgressHUD */,
+				4886138525EFF7D007A034CBAA6C097B /* SwiftyMarkdown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42F609C1CEBABE795078AE5133209071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBB62D9611417E02732AB985749B1E2 /* SVIndefiniteAnimatedView.h in Headers */,
+				E2D5E02CC838C277BDD5744CB818E0F2 /* SVProgressAnimatedView.h in Headers */,
+				8FAD0CBDC626A51F50E0689AB3010EA0 /* SVProgressHUD-umbrella.h in Headers */,
+				B50FAF6DEBD9140DDAAF912AFEEAEA6A /* SVProgressHUD.h in Headers */,
+				DCB85B66A818B0B6B49A55F594F23299 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63AF03B8E3E6AC9383EA3947CC005CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4456BEE68B909B0155A06BAB1FEB1B8E /* Pods-GutHub-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8A38CCB28B42CEA697A84DE75A6A46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C9ABC7143E1F7D8D254D2725BC6F55 /* SwiftyMarkdown-umbrella.h in Headers */,
+				0B32899B440583EB4DA3872C658FA234 /* SwiftyMarkdown.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47D5D3B718568C9E14E6D0451B29B08B /* Pods-GutHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3943E87495617D5E3B0F80BB68D0EB /* Build configuration list for PBXNativeTarget "Pods-GutHub" */;
+			buildPhases = (
+				9702E2B145F530AD3516F37F4EDE3E5E /* Sources */,
+				1EDDF627D56496A46EBC88AEC3BF1CAA /* Frameworks */,
+				63AF03B8E3E6AC9383EA3947CC005CD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55648B98C509A378C49FB9400C8569B /* PBXTargetDependency */,
+				3FFEB670A814463F38F7F459327D44AD /* PBXTargetDependency */,
+			);
+			name = "Pods-GutHub";
+			productName = "Pods-GutHub";
+			productReference = 08C70C80CD43CBAEFFB4C93E1FD14B87 /* Pods_GutHub.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE3A2EF1E09546FCC6D0C2688F48610A /* SwiftyMarkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5E1C07A3587DB2182376EBE4CCA24D /* Build configuration list for PBXNativeTarget "SwiftyMarkdown" */;
+			buildPhases = (
+				43DC5FE07104E1910D113E3A468C62F2 /* Sources */,
+				2C98E531930FA4F2350C460A033867C6 /* Frameworks */,
+				DA8A38CCB28B42CEA697A84DE75A6A46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyMarkdown;
+			productName = SwiftyMarkdown;
+			productReference = 49D315F99A7528A1C66C1448686921C9 /* SwiftyMarkdown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C992A60C3D5A7936FF0AB3258A343494 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E75693DA054186D1193D386561732 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				870B1FDB1B84209CC0DE52E23B2189B3 /* Sources */,
+				F8499F664F456074B6E73BB2E49C071B /* Frameworks */,
+				42F609C1CEBABE795078AE5133209071 /* Headers */,
+				7B6348CD6CC844951ED601839C1BF4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 002096A12AA6489E1A86628925319371 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29977523FC39C556DA9C0C3CE0A355A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D5D3B718568C9E14E6D0451B29B08B /* Pods-GutHub */,
+				C992A60C3D5A7936FF0AB3258A343494 /* SVProgressHUD */,
+				BE3A2EF1E09546FCC6D0C2688F48610A /* SwiftyMarkdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6348CD6CC844951ED601839C1BF4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFC7ECFB24F2FF612BDB1345622EF97 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43DC5FE07104E1910D113E3A468C62F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA586F1F875D474A5473EF14575168E0 /* SwiftyMarkdown-dummy.m in Sources */,
+				30CB2C1DE8FA06D38A42E276EC821B76 /* SwiftyMarkdown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870B1FDB1B84209CC0DE52E23B2189B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325AEC41D073CC4AF311DBF875048CA3 /* SVIndefiniteAnimatedView.m in Sources */,
+				A5CD7CA2B6D4946D03BAE3C2A1B6FE09 /* SVProgressAnimatedView.m in Sources */,
+				C4648A01F18A8F7F526F1942D93AAEE7 /* SVProgressHUD-dummy.m in Sources */,
+				1077CB28F0DAF6B74DD43D983746EC7B /* SVProgressHUD.m in Sources */,
+				582F4E609A41C45D8B11FC19EAE208A6 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9702E2B145F530AD3516F37F4EDE3E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74FF77C44388E8289E3D5686D5A05EA /* Pods-GutHub-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFEB670A814463F38F7F459327D44AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyMarkdown;
+			target = BE3A2EF1E09546FCC6D0C2688F48610A /* SwiftyMarkdown */;
+			targetProxy = EC8CC1FA0A1D981AF5ACBB27846159BF /* PBXContainerItemProxy */;
+		};
+		A55648B98C509A378C49FB9400C8569B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = C992A60C3D5A7936FF0AB3258A343494 /* SVProgressHUD */;
+			targetProxy = C333D5919901DC977DE057A008770BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C3C68AC6732142EF5AA68F06CEEE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18146600DB16AA525DE880EF5E8556B /* SwiftyMarkdown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMarkdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31D4CBFC31CA44C56502AF60A0C5F6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C31CC10A875258899DFFA1F83273CA /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		358E42F21E38FD61A3D51E00CE835047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18146600DB16AA525DE880EF5E8556B /* SwiftyMarkdown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMarkdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyMarkdown/SwiftyMarkdown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		69F6398CA0D75B88673099063BB0C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41514236362857DC0881F2D3EC378B9 /* Pods-GutHub.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GutHub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GutHub/Pods-GutHub.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GutHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A270EEED5B2F24DEED6C2E7263F92F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194DA76ECB2F5C856FBB0B33C2828367 /* Pods-GutHub.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GutHub/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GutHub/Pods-GutHub.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GutHub;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F46BD1B127511E7D359539B2141AE39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C31CC10A875258899DFFA1F83273CA /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3943E87495617D5E3B0F80BB68D0EB /* Build configuration list for PBXNativeTarget "Pods-GutHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F6398CA0D75B88673099063BB0C9B1 /* Debug */,
+				A270EEED5B2F24DEED6C2E7263F92F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5E1C07A3587DB2182376EBE4CCA24D /* Build configuration list for PBXNativeTarget "SwiftyMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358E42F21E38FD61A3D51E00CE835047 /* Debug */,
+				09C3C68AC6732142EF5AA68F06CEEE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E75693DA054186D1193D386561732 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D4CBFC31CA44C56502AF60A0C5F6C1 /* Debug */,
+				F46BD1B127511E7D359539B2141AE39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
