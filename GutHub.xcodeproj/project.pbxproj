@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700EF45E1D588AF500CE40BF /* FavouritesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EF45D1D588AF500CE40BF /* FavouritesItem.swift */; };
+		700EF4601D58BB5100CE40BF /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EF45F1D58BB5100CE40BF /* FavouritesViewController.swift */; };
+		700EF4621D58C03C00CE40BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EF4611D58C03C00CE40BF /* Constants.swift */; };
+		700EF4661D58C98700CE40BF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EF4651D58C98700CE40BF /* TabBarViewController.swift */; };
+		701626DC1D587F0900DC9708 /* FavouritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701626DB1D587F0900DC9708 /* FavouritesList.swift */; };
+		701626DE1D587F6E00DC9708 /* ImagesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701626DD1D587F6E00DC9708 /* ImagesCache.swift */; };
+		704C4FF71D5376F0009E405F /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704C4FF61D5376F0009E405F /* SearchResultCell.swift */; };
 		709CF8921D5242530025E1FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709CF8911D5242530025E1FF /* AppDelegate.swift */; };
-		709CF8941D5242530025E1FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709CF8931D5242530025E1FF /* ViewController.swift */; };
+		709CF8941D5242530025E1FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709CF8931D5242530025E1FF /* SearchViewController.swift */; };
 		709CF8971D5242530025E1FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709CF8951D5242530025E1FF /* Main.storyboard */; };
 		709CF8991D5242530025E1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709CF8981D5242530025E1FF /* Assets.xcassets */; };
 		709CF89C1D5242530025E1FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709CF89A1D5242530025E1FF /* LaunchScreen.storyboard */; };
+		70A194B01D54AFFB00698BF4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A194AF1D54AFFB00698BF4 /* DetailsViewController.swift */; };
+		70B0C8091D535DD7001E5C12 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B0C8081D535DD7001E5C12 /* GitHubAPI.swift */; };
+		70B0C80B1D5361F8001E5C12 /* GitHubRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B0C80A1D5361F8001E5C12 /* GitHubRepo.swift */; };
+		70D12EFB1D54CC9700B0ECF5 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D12EFA1D54CC9700B0ECF5 /* ImageUtils.swift */; };
+		EDB14630168E4F46D7305834 /* Pods_GutHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A26F45129FF12C463A79CBF /* Pods_GutHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A26F45129FF12C463A79CBF /* Pods_GutHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GutHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3940D4541B0A1A9D2D574559 /* Pods-GutHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GutHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GutHub/Pods-GutHub.debug.xcconfig"; sourceTree = "<group>"; };
+		700EF45D1D588AF500CE40BF /* FavouritesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesItem.swift; sourceTree = "<group>"; };
+		700EF45F1D58BB5100CE40BF /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		700EF4611D58C03C00CE40BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		700EF4651D58C98700CE40BF /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		701626DB1D587F0900DC9708 /* FavouritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesList.swift; sourceTree = "<group>"; };
+		701626DD1D587F6E00DC9708 /* ImagesCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesCache.swift; sourceTree = "<group>"; };
+		703BA3071D53948F00665653 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		704C4FF61D5376F0009E405F /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		709CF88E1D5242530025E1FF /* GutHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GutHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709CF8911D5242530025E1FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		709CF8931D5242530025E1FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		709CF8931D5242530025E1FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		709CF8961D5242530025E1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		709CF8981D5242530025E1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709CF89B1D5242530025E1FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709CF89D1D5242530025E1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A194AF1D54AFFB00698BF4 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		70B0C8081D535DD7001E5C12 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		70B0C80A1D5361F8001E5C12 /* GitHubRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubRepo.swift; sourceTree = "<group>"; };
+		70D12EF81D54C21A00B0ECF5 /* SwiftyMarkdown.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyMarkdown.framework; path = "../../Library/Developer/Xcode/DerivedData/GutHub-axdiimtmrjqqqyhbhzbfveplylka/Build/Products/Debug-iphonesimulator/SwiftyMarkdown/SwiftyMarkdown.framework"; sourceTree = "<group>"; };
+		70D12EFA1D54CC9700B0ECF5 /* ImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		C83DE14EA3A4D926AD5A4AE7 /* Pods-GutHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GutHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-GutHub/Pods-GutHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB14630168E4F46D7305834 /* Pods_GutHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2367BA2FEF2CD920ED45B8C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3940D4541B0A1A9D2D574559 /* Pods-GutHub.debug.xcconfig */,
+				C83DE14EA3A4D926AD5A4AE7 /* Pods-GutHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		701626DF1D587F7B00DC9708 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				70D12EFA1D54CC9700B0ECF5 /* ImageUtils.swift */,
+				701626DD1D587F6E00DC9708 /* ImagesCache.swift */,
+				700EF4611D58C03C00CE40BF /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		704C4FF81D537701009E405F /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				709CF8931D5242530025E1FF /* SearchViewController.swift */,
+				704C4FF61D5376F0009E405F /* SearchResultCell.swift */,
+			);
+			name = SearchView;
+			sourceTree = "<group>";
+		};
 		709CF8851D5242530025E1FF = {
 			isa = PBXGroup;
 			children = (
 				709CF8901D5242530025E1FF /* GutHub */,
 				709CF88F1D5242530025E1FF /* Products */,
+				2367BA2FEF2CD920ED45B8C6 /* Pods */,
+				F8E446594BFA5B4EB55E1DC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +114,39 @@
 			isa = PBXGroup;
 			children = (
 				709CF8911D5242530025E1FF /* AppDelegate.swift */,
-				709CF8931D5242530025E1FF /* ViewController.swift */,
+				70B0C80C1D536FA1001E5C12 /* GitHubApi */,
+				704C4FF81D537701009E405F /* SearchView */,
+				701626DF1D587F7B00DC9708 /* Utils */,
+				70A194AF1D54AFFB00698BF4 /* DetailsViewController.swift */,
+				700EF45F1D58BB5100CE40BF /* FavouritesViewController.swift */,
+				700EF4651D58C98700CE40BF /* TabBarViewController.swift */,
 				709CF8951D5242530025E1FF /* Main.storyboard */,
-				709CF8981D5242530025E1FF /* Assets.xcassets */,
 				709CF89A1D5242530025E1FF /* LaunchScreen.storyboard */,
+				709CF8981D5242530025E1FF /* Assets.xcassets */,
 				709CF89D1D5242530025E1FF /* Info.plist */,
 			);
 			path = GutHub;
+			sourceTree = "<group>";
+		};
+		70B0C80C1D536FA1001E5C12 /* GitHubApi */ = {
+			isa = PBXGroup;
+			children = (
+				70B0C8081D535DD7001E5C12 /* GitHubAPI.swift */,
+				70B0C80A1D5361F8001E5C12 /* GitHubRepo.swift */,
+				700EF45D1D588AF500CE40BF /* FavouritesItem.swift */,
+				701626DB1D587F0900DC9708 /* FavouritesList.swift */,
+			);
+			name = GitHubApi;
+			sourceTree = "<group>";
+		};
+		F8E446594BFA5B4EB55E1DC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D12EF81D54C21A00B0ECF5 /* SwiftyMarkdown.framework */,
+				703BA3071D53948F00665653 /* SVProgressHUD.framework */,
+				0A26F45129FF12C463A79CBF /* Pods_GutHub.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 709CF8A01D5242530025E1FF /* Build configuration list for PBXNativeTarget "GutHub" */;
 			buildPhases = (
+				49762C5402AF4A55858B7048 /* [CP] Check Pods Manifest.lock */,
 				709CF88A1D5242530025E1FF /* Sources */,
 				709CF88B1D5242530025E1FF /* Frameworks */,
 				709CF88C1D5242530025E1FF /* Resources */,
+				C7E56251223C47E20C65D958 /* [CP] Embed Pods Frameworks */,
+				2860CF6C9F717801BE08EBF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +218,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2860CF6C9F717801BE08EBF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GutHub/Pods-GutHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49762C5402AF4A55858B7048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E56251223C47E20C65D958 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GutHub/Pods-GutHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		709CF88A1D5242530025E1FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				709CF8941D5242530025E1FF /* ViewController.swift in Sources */,
+				701626DE1D587F6E00DC9708 /* ImagesCache.swift in Sources */,
+				70B0C80B1D5361F8001E5C12 /* GitHubRepo.swift in Sources */,
+				700EF45E1D588AF500CE40BF /* FavouritesItem.swift in Sources */,
+				700EF4601D58BB5100CE40BF /* FavouritesViewController.swift in Sources */,
+				709CF8941D5242530025E1FF /* SearchViewController.swift in Sources */,
+				70B0C8091D535DD7001E5C12 /* GitHubAPI.swift in Sources */,
+				701626DC1D587F0900DC9708 /* FavouritesList.swift in Sources */,
 				709CF8921D5242530025E1FF /* AppDelegate.swift in Sources */,
+				704C4FF71D5376F0009E405F /* SearchResultCell.swift in Sources */,
+				70A194B01D54AFFB00698BF4 /* DetailsViewController.swift in Sources */,
+				700EF4661D58C98700CE40BF /* TabBarViewController.swift in Sources */,
+				70D12EFB1D54CC9700B0ECF5 /* ImageUtils.swift in Sources */,
+				700EF4621D58C03C00CE40BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +394,7 @@
 		};
 		709CF8A11D5242530025E1FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3940D4541B0A1A9D2D574559 /* Pods-GutHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GutHub/Info.plist;
@@ -258,6 +406,7 @@
 		};
 		709CF8A21D5242530025E1FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83DE14EA3A4D926AD5A4AE7 /* Pods-GutHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GutHub/Info.plist;
@@ -286,6 +435,7 @@
 				709CF8A21D5242530025E1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
